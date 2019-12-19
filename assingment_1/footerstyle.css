@@ -1,3 +1,4 @@
+/* Sets the content to fil the screen */
 html, body {
     height: 100%;
     margin: 0;
@@ -7,8 +8,8 @@ html, body {
 
 .contentbox {
     background: #ffffff;
-    width: 480px;
-    height: 480px;
+    width: 960px;
+    height: 960x;
     margin: 0 auto;
     
 
@@ -21,7 +22,7 @@ html, body {
     width: 100%;
     height: 100%;
 }
-/* Container Holding The Hangman Image and Text */
+/* Container Holding The Portfolio Images and Text */
 
 .portfolioblock {
     position: relative;
@@ -33,7 +34,7 @@ html, body {
     padding-bottom: 20px;
 }
 
-/* Text Block in Picture */
+/* Text Block in Picture on Portfolio */
 
 .text-block1 {
     position: absolute;
@@ -47,8 +48,11 @@ html, body {
     padding-bottom: 5px;
 }
 
+/* Pic on Index */
+
 .profilepic{
     float: left;
+    overflow-wrap: break-word;
     height: 200px;
     width: 200px;
     padding-right: 10px;
@@ -89,7 +93,7 @@ h2 {
 }
 
 #myname {
-    margin-left: 10%;
+    margin-left: 22%;
     display: block;
     background:#4aaaa5;
     float: left;
@@ -101,14 +105,31 @@ h2 {
    
 }
 
-.navlinks {
-    list-style-type: none;
+/* Formatting for the Navigation Links on right side */
+.navlinks a {
     float: right;
     color:#777777;
    text-decoration: none;
   
+ 
+}
+
+.contact, .portfolio, .aboutme {
+    padding-top: 25px;
     
-  }
+   
+}
+
+.contact {
+    padding-right: 380px;
+}
+
+.portfolio, .aboutme {
+    padding-right: 10px;
+}
+
+
+  
 
   /* CSS formatting for columns in Portfolio */
 
