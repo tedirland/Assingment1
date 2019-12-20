@@ -48,14 +48,20 @@ html, body {
     padding-bottom: 5px;
 }
 
+
+.profiletext{
+    display:block;
+    position: relative;
+    overflow-wrap: break-word;
+}
 /* Pic on Index */
 
 .profilepic{
     float: left;
-    overflow-wrap: break-word;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     padding-right: 10px;
+    padding-bottom: 100px;
 }
 h2 {
     color: #4aaaa5;
@@ -67,9 +73,28 @@ h2 {
     margin-bottom: -58px;
 
 }
-   
 
+.messagebox {
+    width: 400px;
+    height: 100px;
+    
+}
+input {
+    width: 400px;
+}
 
+form {
+    padding-left: 15px;
+}
+
+.button {
+    padding-top: 15px;
+    width: 100px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
 .footer {
    background: #666666; 
    border-top: 8px solid #4aaaa5;
@@ -133,11 +158,11 @@ h2 {
 
   /* CSS formatting for columns in Portfolio */
 
-  .column {
-    display: flex;
-    flex: 50%;
-    padding: 0 4px;
-  }
+ .flexbox {
+     display: flex;
+     flex-direction: row;
+ }
+  
 
   .column img {
       margin-top: 8px;

@@ -40,6 +40,7 @@ li {
     font-size: 1.25em;
   }
   
+  /* Top Header */
   .topnav {
     background-color:#ffffff;
     height: 10%;
@@ -65,16 +66,18 @@ li {
       color: #ffffff;
      
   }
+  /* Links on Top Right */
 
-  #navlinks {
+  .navlinks {
     list-style-type: none;
-    float: right;
+    text-decoration: none;
     color:#777777;
   
-    
   }
 
-
+a {
+  text-decoration: none;
+}
   
   main {
     background-color:#ffffff;
@@ -103,4 +106,4 @@ li {
     background-color: #ffffff;
   }
 
-  /* Trying wrapper concept */
+
